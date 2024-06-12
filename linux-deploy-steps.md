@@ -56,8 +56,8 @@ WantedBy=multi-user.target
 <br>
 
 ##### sudo systemctl start app [need this command after every restart] <br>
-sudo systemctl enable app   [ this will enable service for every boot]
-sudo systemctl status app   [ check status]
+sudo systemctl enable app   [ this will enable service for every boot] <br>
+sudo systemctl status app   [ check status] <br>
 sudo systemctl restart app
 
 
