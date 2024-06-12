@@ -88,7 +88,7 @@ location /static  {
 sudo ln -s /etc/nginx/sites-available/app /etc/nginx/sites-enabled
 
 ### --- PERMISSIONS---
-sudo chmod 775 -R /home/harry/myFlaskApp
-sudo chmod 775 -R /home/harry
-sudo systemctl restart nginx
+sudo chmod 775 -R /home/harry/myFlaskApp <br>
+sudo chmod 775 -R /home/harry  <br>
+sudo systemctl restart nginx <br>
 sudo ufw allow 'Nginx Full'
