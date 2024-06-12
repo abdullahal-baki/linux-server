@@ -27,12 +27,12 @@ User=harry
 WantedBy=multi-user.target
 
 ```
-sudo systemctl daemon-reload
+sudo systemctl daemon-reload <br>
 
-sudo systemctl start my_python_service.service
+sudo systemctl start my_python_service.service <br>
 
-sudo systemctl enable my_python_service.service
+sudo systemctl enable my_python_service.service <br>
 
-sudo systemctl restart my_python_service.service
+sudo systemctl restart my_python_service.service <br>
 
-sudo systemctl status my_python_service.service
+sudo systemctl status my_python_service.service <br>
