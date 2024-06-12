@@ -9,7 +9,7 @@ usermod -aG sudo harry
 ### ---install packages---
 sudo apt install python3-pip python3-dev nginx -y
 
-python3 -m venv venv
+python3 -m venv venv <br>
 source venv/bin/activate
 
 pip3 install -r requirements.txt
